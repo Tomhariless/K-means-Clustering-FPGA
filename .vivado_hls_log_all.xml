@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Compilation errors found:&#xD;&#xA;Pragma processor failed: Kmeans_histogram_stream/kmeans_histo_s.cpp:12:46: error: use of undeclared identifier 'image_in'&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                             ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:103: error: type name requires a specifier or qualifier&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                                                                                      ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:46: error: use of undeclared identifier 'image_in'&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                             ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:103: error: type name requires a specifier or qualifier&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                                                                                      ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:86:2: error: expected ')'&#xD;&#xA;}&#xD;&#xA; ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:20: note: to match this '('&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                   ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:86:2: error: expected function body after function declarator&#xD;&#xA;}&#xD;&#xA; ^&#xD;&#xA;6 errors generated.&#xD;&#xA;Failed checking during preprocessing.&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/40148119/K_Means_Clustering/KmeansHLS/Kmeans_histogram_stream/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/40148119/K_Means_Clustering/KmeansHLS/Kmeans_histogram_stream/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="Kmeans_histogram_stream" solutionName="solution1" date="2017-03-23T19:36:36.229+0000"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] " projectName="Kmeans_histogram_stream" solutionName="solution1" date="2017-03-23T19:36:36.143+0000" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Kmeans_histogram_stream/kmeans_histo_s.cpp:12:46: error: use of undeclared identifier 'image_in'&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                             ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:103: error: type name requires a specifier or qualifier&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                                                                                      ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:46: error: use of undeclared identifier 'image_in'&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                             ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:103: error: type name requires a specifier or qualifier&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                                                                                                      ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:86:2: error: expected ')'&#xD;&#xA;}&#xD;&#xA; ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:12:20: note: to match this '('&#xD;&#xA;void kmeans_histo_s(hls::stream&lt;ap_uint&lt;4>> &amp;image_in, hls::stream&lt;ap_uint&lt;4>> &amp;image_out, ap_uint&lt;4> histo[16]){&#xD;&#xA;                   ^&#xD;&#xA;Kmeans_histogram_stream/kmeans_histo_s.cpp:86:2: error: expected function body after function declarator&#xD;&#xA;}&#xD;&#xA; ^&#xD;&#xA;6 errors generated." projectName="Kmeans_histogram_stream" solutionName="solution1" date="2017-03-23T19:36:36.132+0000" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
